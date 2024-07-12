@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/yangcao/audio-0712:dadf2dde69e0ac52743a1f702077947bd1bf2ae1@sha256:1131dde02c95b8f537c8e5cc7782db085a8a15d68e550353c88cd7a04a4699ec # use pre-built to bootstrap 
+        - image: quay.io/yangcao/audio-to-text:latest # use pre-built to bootstrap 
           name: app-inference
